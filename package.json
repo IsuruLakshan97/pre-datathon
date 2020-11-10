@@ -1,16 +1,35 @@
 {
-  "name": "PreDatathon",
+  "name": "pre-datathon",
   "version": "1.0.0",
-  "description": "This is the website for PreDatathon",
+  "description": "Hackers' Club official pre-datathon website",
   "main": "index.html",
   "scripts": {
     "start": "npm run lite",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write .",
     "lite": "lite-server"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HackersUOP/pre-datathon.git"
+  },
+  "keywords": [
+    "HackersClubUOP",
+    "Hackers'",
+    "ACES Pre-Datathon",
+    "Pre-Datathon",
+    "Pre Datathon",
+    "Hackers' Club Pre-Datathon",
+    "UOP"
+  ],
+  "author": "HackersUOP",
+  "license": "LGPL-2.1",
+  "bugs": {
+    "url": "https://github.com/HackersUOP/pre-datathon/issues"
+  },
+  "homepage": "https://github.com/HackersUOP/pre-datathon#readme",
+  "dependencies": {},
   "devDependencies": {
-    "lite-server": "^2.3.0"
+    "lite-server": "^2.5.4",
+    "prettier": "^2.1.2"
   }
 }
