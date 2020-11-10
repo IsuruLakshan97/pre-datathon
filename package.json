@@ -1,7 +1,7 @@
 {
   "name": "hackersuop-pre-datathon",
   "version": "1.0.0",
-  "description": "Hackers' Club Official Pre-Datathon Website",
+  "description": "Hackers' Club Official Pre Datathon Website",
   "main": "index.js",
   "scripts": {
     "format": "prettier --write .",
@@ -17,7 +17,7 @@
     "ACES Pre-Datathon",
     "Pre-Datathon",
     "Pre Datathon",
-    "Hackers' Club Pre-Datathon",
+    "Hackers' Club",
     "UOP"
   ],
   "author": "HackersUOP",
@@ -27,7 +27,5 @@
   },
   "homepage": "https://github.com/HackersUOP/pre-datathon#readme",
   "dependencies": {},
-  "devDependencies": {
-    "prettier": "^2.1.2"
-  }
+  "devDependencies": {}
 }
