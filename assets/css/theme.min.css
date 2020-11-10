@@ -7285,7 +7285,7 @@ body.search .no-results .search-form input[type=submit] { background-color: var(
   .pl-md-2, .px-md-2 { padding-left: 0.5rem !important; }
   .pr-md-2, .px-md-2 { padding-right: 0.5rem !important; }
   .p-md-3 { padding: 1rem !important; }
-  .pt-md-3, .py-md-3 { background-color: #680698;padding-top: 1rem !important; }
+  .pt-md-3, .py-md-3 { padding-top: 1rem !important; }
   .pb-md-3, .py-md-3 { padding-bottom: 1rem !important; }
   .pl-md-3, .px-md-3 { padding-left: 1rem !important; }
   .pr-md-3, .px-md-3 { padding-right: 1rem !important; }
