@@ -487,7 +487,7 @@ figure + .ld-cart-product-details { margin-left: 15px; }
 
 .header-module .iconbox { margin-bottom: 0; -webkit-box-align: center !important; align-items: center !important; }
 .header-module .iconbox .iconbox-icon-wrap { margin-right: 0; }
-.header-module .iconbox .iconbox-icon-container { margin-right: 15px; }
+.header-module .iconbox .iconbox-icon-container { margin-right: 15px;}
 .header-module .iconbox h3 { margin-bottom: 0.25em; }
 .header-module .iconbox h3:last-child { margin-bottom: 0; }
 .header-module .iconbox-inline h3 { -webkit-box-flex: 1; flex: auto; }
@@ -1316,6 +1316,11 @@ figure + .ld-cart-product-details { margin-left: 15px; }
 
 .iconbox-filled-hover:before { content: ''; display: inline-block; width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 0; opacity: 0; -webkit-transition: all 0.3s ease; transition: all 0.3s ease; border-radius: inherit; background: var(--color-primary); background-size: cover; background-position: center; }
 .iconbox-filled-hover:hover { color: #fff; }
+
+/* some colour changes added
+.iconbox-filled-hover:before { content: ''; display: inline-block; width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 0; opacity: 0; -webkit-transition: all 0.3s ease; transition: all 0.3s ease; border-radius: inherit; background: var(--color-primary); background-size: cover; background-position: center; }
+.iconbox-filled-hover:hover { color: #fff; } */
+
 .iconbox-filled-hover:hover .iconbox-icon-container, .iconbox-filled-hover:hover h3, .iconbox-filled-hover:hover p, .iconbox-filled-hover:hover p span, .iconbox-filled-hover:hover a, .iconbox-filled-hover:hover .btn[class*=text-] { color: inherit !important; }
 .iconbox-filled-hover:hover .btn-underlined:before, .iconbox-filled-hover:hover .btn-underlined:after { background: currentColor; }
 .iconbox-filled-hover:hover:before { opacity: 1; }
