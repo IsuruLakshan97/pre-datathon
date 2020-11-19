@@ -1314,12 +1314,12 @@ figure + .ld-cart-product-details { margin-left: 15px; }
 
 .iconbox-bordered { padding-top: 40px; padding-bottom: 40px; border: 1px solid #E1E1E1; }
 
-.iconbox-filled-hover:before { content: ''; display: inline-block; width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 0; opacity: 0; -webkit-transition: all 0.3s ease; transition: all 0.3s ease; border-radius: inherit; background: var(--color-primary); background-size: cover; background-position: center; }
-.iconbox-filled-hover:hover { color: #fff; }
-
-/* some colour changes added
-.iconbox-filled-hover:before { content: ''; display: inline-block; width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 0; opacity: 0; -webkit-transition: all 0.3s ease; transition: all 0.3s ease; border-radius: inherit; background: var(--color-primary); background-size: cover; background-position: center; }
+/* .iconbox-filled-hover:before { content: ''; display: inline-block; width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 0; opacity: 0; -webkit-transition: all 0.3s ease; transition: all 0.3s ease; border-radius: inherit; background: var(--color-primary); background-size: cover; background-position: center; }
 .iconbox-filled-hover:hover { color: #fff; } */
+
+/* some colour changes added */
+.iconbox-filled-hover:before { content: ''; display: inline-block; width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 0; opacity: 0; -webkit-transition: all 0.3s ease; transition: all 0.3s ease; border-radius: inherit; background: #004077; background-size: cover; background-position: center; }
+.iconbox-filled-hover:hover { color: #fff; }
 
 .iconbox-filled-hover:hover .iconbox-icon-container, .iconbox-filled-hover:hover h3, .iconbox-filled-hover:hover p, .iconbox-filled-hover:hover p span, .iconbox-filled-hover:hover a, .iconbox-filled-hover:hover .btn[class*=text-] { color: inherit !important; }
 .iconbox-filled-hover:hover .btn-underlined:before, .iconbox-filled-hover:hover .btn-underlined:after { background: currentColor; }
