@@ -1314,8 +1314,13 @@ figure + .ld-cart-product-details { margin-left: 15px; }
 
 .iconbox-bordered { padding-top: 40px; padding-bottom: 40px; border: 1px solid #E1E1E1; }
 
-.iconbox-filled-hover:before { content: ''; display: inline-block; width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 0; opacity: 0; -webkit-transition: all 0.3s ease; transition: all 0.3s ease; border-radius: inherit; background: var(--color-primary); background-size: cover; background-position: center; }
+/* .iconbox-filled-hover:before { content: ''; display: inline-block; width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 0; opacity: 0; -webkit-transition: all 0.3s ease; transition: all 0.3s ease; border-radius: inherit; background: var(--color-primary); background-size: cover; background-position: center; }
+.iconbox-filled-hover:hover { color: #fff; } */
+
+/* some colour changes added */
+.iconbox-filled-hover:before { content: ''; display: inline-block; width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 0; opacity: 0; -webkit-transition: all 0.3s ease; transition: all 0.3s ease; border-radius: inherit; background: #004077; background-size: cover; background-position: center; }
 .iconbox-filled-hover:hover { color: #fff; }
+
 .iconbox-filled-hover:hover .iconbox-icon-container, .iconbox-filled-hover:hover h3, .iconbox-filled-hover:hover p, .iconbox-filled-hover:hover p span, .iconbox-filled-hover:hover a, .iconbox-filled-hover:hover .btn[class*=text-] { color: inherit !important; }
 .iconbox-filled-hover:hover .btn-underlined:before, .iconbox-filled-hover:hover .btn-underlined:after { background: currentColor; }
 .iconbox-filled-hover:hover:before { opacity: 1; }
@@ -4197,8 +4202,11 @@ ul.pagination .page-numbers.current { color: #16171e; }
 .one-roadmap-item:last-of-type { padding-bottom: 0; }
 .one-roadmap-item:last-of-type .one-roadmap-bar:after { content: none; }
 
-.one-roadmap-item-checked .one-roadmap-bar, .one-roadmap-item-checked .one-roadmap-info { opacity: 0.6; }
-.one-roadmap-item-checked .one-roadmap-mark { opacity: 1; }
+.one-roadmap-item-active .one-roadmap-bar, .one-roadmap-item-active .one-roadmap-info { opacity: 1; }
+.one-roadmap-item-active .one-roadmap-mark { opacity: 1; }
+
+.one-roadmap-item-inactive .one-roadmap-bar, .one-roadmap-item-inactive .one-roadmap-info { opacity: 0.6; }
+.one-roadmap-item-inactive .one-roadmap-mark { opacity: 0.6; }
 
 .one-roadmap { padding: 45px 40px 45px 60px; }
 .one-roadmap:before { content: ''; display: inline-block; position: absolute; top: 0; left: 0; bottom: 0; right: 0; border: 1px solid; opacity: 0.3; }
